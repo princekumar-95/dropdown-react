@@ -1,0 +1,61 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* App component style */
+.app{
+  height: 40vh;
+  /* background-color: #7BD7E2; */
+  border:2px solid black;
+  padding: 20px 40px;
+  position: relative;
+}
+.ans-p{
+  position: absolute;
+  top: -110px;
+  left:200px;
+}
+
+/* Home component style */
+.home button{
+  margin: 2px 0px;
+  width: 400px;
+  color: #3D4C56;
+  background-color: white;
+  padding: 10px 20px;
+  border: 0px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  border:2px solid black;
+
+}
+
+/* Dropdown component style */
+.dropdown{
+  width: 400px;
+  background-color: white;
+  padding: 10px 20px;
+}
+.dropdown p{
+  width: 100%;
+  font-size: 18px;
+  color: #3D4C56;
+  margin: 2px 0px;
+  cursor: pointer;
+}
+.dropdown p:hover{
+  background-color:#2B7DE9;
+  color: white;
+  
+}
